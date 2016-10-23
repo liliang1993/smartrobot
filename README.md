@@ -1,2 +1,3 @@
 # smartrobot
 这是一个demo
+这是一个基于图灵机器人平台的api开发的类似siri的智能聊天助手
