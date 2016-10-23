@@ -1,0 +1,291 @@
+a,
+a:hover,
+a:active,
+a:link {
+  text-decoration: inherit;
+  color: #445173;
+}
+html,
+body {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #f0f0f0;
+}
+html #body,
+body #body {
+  min-height: 100%;
+  margin: 0 auto;
+  max-width: 640px;
+}
+html #body #main #container,
+body #body #main #container {
+  width: 100%;
+  min-height: 100%;
+  box-sizing: border-box;
+  padding: 25px 20px 50px 20px;
+}
+html #body #main #container .user,
+body #body #main #container .user,
+html #body #main #container .service,
+body #body #main #container .service {
+  margin-bottom: 25px;
+}
+html #body #main #container .user .time,
+body #body #main #container .user .time,
+html #body #main #container .service .time,
+body #body #main #container .service .time {
+  margin: 4px 3px;
+  color: #B5B5B5;
+  font-size: 12px;
+}
+html #body #main #container .user .span,
+body #body #main #container .user .span,
+html #body #main #container .service .span,
+body #body #main #container .service .span {
+  padding: 10px 10px;
+  color: #3a3a3a;
+  font-size: 15px;
+  word-break: break-all;
+  word-wrap: break-word;
+  display: inline-block;
+  text-align: left;
+  border-radius: 4px;
+}
+html #body #main #container .user,
+body #body #main #container .user {
+  -webkit-transform: translate(0, 0);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  margin-left: 20px;
+  text-align: right;
+  -webkit-animation: userMess 0.8s;
+}
+html #body #main #container .user .span,
+body #body #main #container .user .span {
+  background-color: #5aca66;
+  box-shadow: 1px 1px 2px #94d59e;
+}
+html #body #main #container .service,
+body #body #main #container .service {
+  -webkit-transform: translate(0, 0);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  text-align: left;
+  margin-right: 20px;
+  -webkit-animation: serviceMess 0.8s;
+}
+html #body #main #container .service .span,
+body #body #main #container .service .span {
+  background-color: #ffffff;
+  box-shadow: 1px 1px 2px #d8d8d8;
+}
+html #body #main #container .service.list .span,
+body #body #main #container .service.list .span {
+  min-width: 200px;
+}
+html #body #main #container .service.list .text,
+body #body #main #container .service.list .text {
+  color: #8C8C8C;
+}
+html #body #main #container .service.list ul,
+body #body #main #container .service.list ul {
+  padding-left: 25px;
+  font-weight: bold;
+}
+html #body #main #container .service.list ul li,
+body #body #main #container .service.list ul li {
+  margin: 5px 0;
+}
+html #body #main #container .service.list .opera,
+body #body #main #container .service.list .opera {
+  margin: 7px 0;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+}
+html #body #main #container .service.list .opera span,
+body #body #main #container .service.list .opera span {
+  padding: 5px 15px;
+  background-color: #C7C7C7;
+  border-radius: 9px;
+  color: #FFF;
+  font-size: 12.5px;
+}
+html #body #mask,
+body #body #mask {
+  height: 70px;
+  width: 100%;
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #f0f0f0, #f0f0f0, #f0f0f0);
+  position: fixed;
+  bottom: 0;
+  z-index: 4;
+  max-width: 640px;
+}
+html #body #mind,
+body #body #mind {
+  width: 100%;
+  position: fixed;
+  bottom: 50px;
+  z-index: 5;
+  max-width: 640px;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.82);
+  border-top: 1px solid #c6c6c6;
+  padding: 2px 5px;
+  box-sizing: border-box;
+}
+html #body #mind ol,
+body #body #mind ol {
+  margin: 5px 0;
+  padding: 0 30px;
+}
+html #body #mind ol li,
+body #body #mind ol li {
+  padding: 10px 0;
+  border-radius: 5px;
+  display: none;
+  color: #5F5F5F;
+}
+html #body #mind ol li:hover,
+body #body #mind ol li:hover {
+  background-color: #92E29B;
+  color: #11841D;
+}
+html #body #form,
+body #body #form {
+  width: 100%;
+  height: 35px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 5;
+  max-width: 640px;
+}
+html #body #form td,
+body #body #form td {
+  box-sizing: border-box;
+  padding: 5px 5px;
+}
+html #body #form #inputContain,
+body #body #form #inputContain {
+  width: 100%;
+}
+html #body #form #inputContain input,
+body #body #form #inputContain input {
+  width: 98%;
+  height: 100%;
+  border-style: solid;
+  border-color: #5aca66;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 0.54);
+  padding: 2px 5px;
+  color: #34743a;
+  font-size: 13px;
+  outline: none;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+html #body #form #sendButton div,
+body #body #form #sendButton div {
+  width: 60px;
+  height: 100%;
+  background-color: #5aca66;
+  line-height: 35px;
+  color: rgba(255, 250, 233, 0.72);
+  text-align: center;
+  font-size: 15px;
+  border-radius: 4px;
+}
+html #ripple,
+body #ripple {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: -webkit-linear-gradient(top, rgba(90, 202, 102, 0.41), rgba(255, 255, 255, 0));
+}
+html #ripple text,
+body #ripple text {
+  margin-top: 20px;
+  text-align: center;
+  color: #5aca66;
+  font-size: 16px;
+}
+html #ripple .ripple,
+body #ripple .ripple {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  /*background-color: rgba(85, 85, 85, 0.53);*/
+  background-image: url(http://sandbox.runjs.cn/uploads/rs/253/yalxry4o/ripple.png);
+  background-repeat: no-repeat;
+  top: 10px;
+  left: 0;
+}
+html #ripple #ripple1,
+body #ripple #ripple1 {
+  -webkit-animation: ripple1 2s linear infinite alternate forwards;
+}
+html #ripple #ripple2,
+body #ripple #ripple2 {
+  -webkit-animation: ripple2 3s linear infinite alternate forwards;
+}
+@media (min-width: 640px) {
+  #body {
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 0 13px #7e7e7e;
+  }
+}
+/****ani******/
+@-webkit-keyframes userMess {
+  from {
+    -webkit-transform: translate(100px, 0);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes serviceMess {
+  from {
+    -webkit-transform: translate(-100px, 0);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes ripple1 {
+  0% {
+    background-position: 100% 0px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    background-position: 0% 0px;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes ripple2 {
+  0% {
+    background-position: 100% 0px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    background-position: 0% 0px;
+    opacity: 0;
+  }
+}

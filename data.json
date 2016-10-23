@@ -1,0 +1,19 @@
+{
+  "type": "list", /*text*/
+  "data": [
+    {
+      "title": "一二三",
+      "url": "http://baidu.com"
+    },
+    {
+      "title": "一二三",
+      "url": "http://baidu.com"
+    },
+    {
+      "title": "一二三",
+      "url": "http://baidu.com"
+    }
+  ]
+}
+
+
